@@ -7,9 +7,9 @@ import VideoBackground from './VideoBackground';
 export default function Home() {
   return (
     <>
-      <main className='w-screen min-h-screen flex flex-col md:flex-row '>
+      <main className='w-screen min-h-screen w-full flex flex-col md:flex-row '>
         <div
-          className="flex min-h-screen w-full overflow-hidden relative flex-col justify-end p-8 md:p-12 bg-cover bg-center"
+          className="flex min-h-[100vh] w-full overflow-hidden relative flex-col justify-end p-8 md:p-12 bg-cover bg-center"
         >
           <VideoBackground videoUrl='/ruby.mp4' />
 
