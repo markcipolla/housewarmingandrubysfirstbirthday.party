@@ -17,7 +17,7 @@ export default function Home() {
             <>
               <span className='text-lime-600'>House Warming &</span>
               <br />
-              <span className='text-lime-800'>Ruby's First Birthday Party</span>
+              <span className='text-lime-800'>Ruby&apos;s First Birthday Party</span>
             </>
           </PageTitle>
         </div>
