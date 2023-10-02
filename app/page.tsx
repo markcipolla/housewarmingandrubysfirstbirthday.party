@@ -26,7 +26,7 @@ export default function Home() {
           <div className='flex flex-col gap-4'> 
             <SectionTitle>When & Where</SectionTitle>
 
-            <p>11am-5pm</p>
+            <p>11am—3pm</p>
             <p>18th November 2023</p>
             <p>116 Wungan Street, Macleod</p>
           </div>
