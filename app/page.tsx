@@ -42,7 +42,7 @@ export default function Home() {
           <div className='flex flex-col'> 
             <SectionTitle>When & Where</SectionTitle>
 
-            <Paragraph>12pm—4pm, Sunday, 18th November 2023</Paragraph>
+            <Paragraph>12pm—4pm, Sunday, 19th November 2023</Paragraph>
             <Paragraph>116 Wungan Street, Macleod</Paragraph>
           </div>
 
