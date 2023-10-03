@@ -6,7 +6,7 @@ interface ParagraphProps {
 export const Paragraph = ({children, className}: ParagraphProps) => {
   return (
     <div 
-      className='border-l-8 border-white -left-2 pt-[5px] pb-[5px] relative' 
+      className='border-l-8 border-white -left-2 py-[6px] relative' 
       style={{borderLeftWidth: '36px'}}
     >
       <p className='pt-[6px] pb-[7px] leading-6  bg-white inline text-lg'>
