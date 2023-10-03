@@ -7,5 +7,15 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   plugins: [],
+  theme: {
+    extend: {
+      height: {
+        device: '100dvh',
+      },
+      minHeight: {
+        device: '100dvh',
+      }
+    }
+  }
 }
 export default config

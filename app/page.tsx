@@ -7,9 +7,9 @@ import VideoBackground from './VideoBackground';
 export default function Home() {
   return (
     <>
-      <main className='w-screen min-h-screen w-full flex flex-col md:flex-row '>
+      <main className='w-screen min-h-device flex flex-col lg:flex-row '>
         <div
-          className="flex min-h-[100vh] w-full overflow-hidden relative flex-col justify-end p-8 md:p-12 bg-cover bg-center"
+          className="flex min-h-device w-full overflow-hidden relative flex-col justify-end p-8 lg:p-12 bg-cover bg-center"
         >
           <VideoBackground videoUrl='/ruby.mp4' />
 
@@ -22,16 +22,19 @@ export default function Home() {
           </PageTitle>
         </div>
 
-        <div className='p-8 md:min-w-[450px] md:p-12 flex flex-col gap-12 justify-items-stretch content-between justify-between items-stretch'>
-        <div className='flex flex-col gap-4'> 
+        <div 
+          className='p-8 lg:min-w-[450px] lg:p-12 flex flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
+          style={{backgroundImage: 'url(/tiles.png)'}}
+        >
+          <div className='flex flex-col gap-4'> 
             <SectionTitle>Join us</SectionTitle>
 
             <p>
-              We've had a huge year (and a bit). We've started a family and welcomed little Ruby, and we've bought a home.
+              We&apos;ve had a huge year (and a bit). We&apos;ve started a family, welcomed little Ruby, and we&apos;ve moved into our home.
             </p>
 
             <p>
-              Please help us celebrate (albeit belatedly) Ruby's first birthday party and a house warming!
+              Please help us celebrate (albeit belatedly) Ruby&apos;s first birthday party, and while we&apos;re at it, a house warming!
             </p>
           </div>
 
@@ -54,9 +57,9 @@ export default function Home() {
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.9053928850058!2d145.06664007583268!3d-37.72189847199872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6461f2e63ba67%3A0x3cdac865ad1720ee!2s116%20Wungan%20St%2C%20Macleod%20VIC%203085!5e0!3m2!1sen!2sau!4v1696294402401!5m2!1sen!2sau" 
         className='w-full h-[450px]'
-        allowfullscreen
+        allowFullScreen
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
       <p className='p-2 text-center'>❤️ Created by Ju-Lin, Mark, Remy and Ruby</p>
     </>
