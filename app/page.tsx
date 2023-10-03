@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         <div 
-          className='p-8 lg:min-w-[450px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
+          className='border-8 border-amber-950 p-8 lg:min-w-[450px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
           style={{backgroundImage: 'url(/tiles.jpg)'}}
         >
           <div className='flex flex-col'> 
