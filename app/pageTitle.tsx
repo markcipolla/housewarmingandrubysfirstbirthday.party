@@ -8,7 +8,7 @@ interface PageTitleProps {
 export const PageTitle = ({children}: PageTitleProps) => {
   return (
     <div 
-      className='border-l-8 border-white -left-2 pt-3 pb-3 relative' 
+      className='border-l-8 border-white -left-2 pt-[12px] pb-[12px] relative' 
       style={{borderLeftWidth: '36px'}}
     >
       <h1 className={`text-6xl md:text-7xl pt-2 pb-[9px] md:pb-[8px] bg-white inline ${font.className}`}>
