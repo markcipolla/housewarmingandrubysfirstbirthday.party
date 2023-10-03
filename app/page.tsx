@@ -1,5 +1,6 @@
 
 import PageTitle from './pageTitle'
+import Paragraph from './paragraph'
 import SectionTitle from './sectionTitle';
 import VideoBackground from './VideoBackground';
 
@@ -23,35 +24,32 @@ export default function Home() {
         </div>
 
         <div 
-          className='p-8 lg:min-w-[450px] lg:p-12 flex flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
-          style={{backgroundImage: 'url(/tiles.png)'}}
+          className='p-8 lg:min-w-[450px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
+          style={{backgroundImage: 'url(/tiles.jpg)'}}
         >
-          <div className='flex flex-col gap-4'> 
+          <div className='flex flex-col'> 
             <SectionTitle>Join us</SectionTitle>
 
-            <p>
+            <Paragraph>
               We&apos;ve had a huge year (and a bit). We&apos;ve started a family, welcomed little Ruby, and we&apos;ve moved into our home.
-            </p>
+            </Paragraph>
 
-            <p>
+            <Paragraph>
               Please help us celebrate (albeit belatedly) Ruby&apos;s first birthday party, and while we&apos;re at it, a house warming!
-            </p>
+            </Paragraph>
           </div>
 
-          <div className='flex flex-col gap-4'> 
+          <div className='flex flex-col'> 
             <SectionTitle>When & Where</SectionTitle>
 
-            <p>12pm—4pm, Sunday, 18th November 2023</p>
-            <p>116 Wungan Street, Macleod</p>
+            <Paragraph>12pm—4pm, Sunday, 18th November 2023</Paragraph>
+            <Paragraph>116 Wungan Street, Macleod</Paragraph>
           </div>
 
-          <div className='flex flex-col gap-4'> 
-            <SectionTitle>Let us know if you can make it</SectionTitle>
-            <a 
-              className='text-2xl text-white text-bold block p-4 rounded bg-blue-600 hover:bg-blue-500 text-center'
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfg5s9Nszmw4ty_MGUdShwLBhmmboFGzZGCn8-SQSnfMyy6LA/viewform?usp=sf_link"
-            >RSVP</a>
-          </div>
+          <a 
+            className='-mx-2 mt-2 text-2xl text-white bold shadow block p-4 rounded border-8 border-blue-200 bg-blue-600 hover:bg-blue-500 text-center'
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfg5s9Nszmw4ty_MGUdShwLBhmmboFGzZGCn8-SQSnfMyy6LA/viewform?usp=sf_link"
+          >RSVP</a>
         </div>
       </main>
       <iframe 
@@ -61,6 +59,7 @@ export default function Home() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
+
       <p className='p-2 text-center'>❤️ Created by Ju-Lin, Mark, Remy and Ruby</p>
     </>
   )
