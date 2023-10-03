@@ -16,9 +16,7 @@ export default function Home() {
 
           <PageTitle>
             <>
-              <span className='text-yellow-600'>House Warming &</span>
-              <br />
-              <span className='text-yellow-800'>Ruby&apos;s First Birthday Party</span>
+              <span className='text-yellow-600'>Help us celebrate!</span>
             </>
           </PageTitle>
         </div>
