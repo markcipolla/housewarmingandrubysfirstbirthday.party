@@ -1,4 +1,4 @@
-import Footer from './AFooter'
+import Footer from './Footer'
 import PageTitle from './PageTitle'
 import Paragraph from './Paragraph'
 import SectionTitle from './SectionTitle';
