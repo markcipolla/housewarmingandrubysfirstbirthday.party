@@ -1,9 +1,9 @@
-
-import PageTitle from './pageTitle'
-import Paragraph from './paragraph'
-import SectionTitle from './sectionTitle';
+import Footer from './Footer'
+import PageTitle from './PageTitle'
+import Paragraph from './Paragraph'
+import SectionTitle from './SectionTitle';
+import RSVP from './RSVP';
 import VideoBackground from './VideoBackground';
-
 
 export default function Home() {
   return (
@@ -22,32 +22,30 @@ export default function Home() {
         </div>
 
         <div 
-          className='border-8 border-amber-950 p-8 lg:min-w-[450px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
+          className='border-8 border-[#312a2c] p-8 lg:min-w-[450px] lg:p-12 flex bg-contain bg-center flex-col gap-12 justify-items-stretch content-between justify-between items-stretch' 
           style={{backgroundImage: 'url(/tiles.jpg)'}}
         >
           <div className='flex flex-col'> 
-            <SectionTitle>Join us</SectionTitle>
+            <SectionTitle>Dear family and friends,</SectionTitle>
 
             <Paragraph>
-              We&apos;ve had a huge year (and a bit). We&apos;ve started a family, welcomed little Ruby, and we&apos;ve moved into our home.
+              What a year! We&apos;ve started a family, welcomed little Ruby and moved into our home. We couldn&apos;t have done it without you.
             </Paragraph>
 
             <Paragraph>
-              Please help us celebrate (albeit belatedly) Ruby&apos;s first birthday party, and while we&apos;re at it, a house warming!
+              So please join us to celebrate (albeit belatedly) Ruby&apos;s first birthday party, and while we&apos;re at it, a house warming!
             </Paragraph>
           </div>
 
           <div className='flex flex-col'> 
             <SectionTitle>When & Where</SectionTitle>
 
-            <Paragraph>12pm—4pm, Sunday, 19th November 2023</Paragraph>
+            <Paragraph>Sunday 19th November 2023, 12pm—4pm</Paragraph>
             <Paragraph>116 Wungan Street, Macleod</Paragraph>
+            <Paragraph>BYO drinks, there will be food. No presents (unless pre-loved), your presence is plenty. </Paragraph>
           </div>
 
-          <a 
-            className='-mx-2 mt-2 text-2xl text-white bold shadow block p-4 rounded border-8 border-blue-200 bg-blue-600 hover:bg-blue-500 text-center'
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfg5s9Nszmw4ty_MGUdShwLBhmmboFGzZGCn8-SQSnfMyy6LA/viewform?usp=sf_link"
-          >RSVP</a>
+          <RSVP>Please RSVP by November 4th</RSVP>
         </div>
       </main>
       <iframe 
@@ -58,7 +56,7 @@ export default function Home() {
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
 
-      <p className='p-2 text-center'>❤️ Created by Ju-Lin, Mark, Remy and Ruby</p>
+      <Footer>❤️ Created by Ju-Lin, Mark, Remy and Ruby</Footer>
     </>
   )
 }
