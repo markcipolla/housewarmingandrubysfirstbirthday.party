@@ -8,7 +8,7 @@ import VideoBackground from './VideoBackground';
 export default function Home() {
   return (
     <>
-      <main className='w-screen min-h-device flex flex-col lg:flex-row '>
+      <main className='min-h-device flex flex-col lg:flex-row '>
         <div
           className="flex min-h-device w-full overflow-hidden relative flex-col justify-end p-8 lg:p-12 bg-cover bg-center"
         >
