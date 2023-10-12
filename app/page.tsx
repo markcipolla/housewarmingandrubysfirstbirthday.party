@@ -43,9 +43,10 @@ export default function Home() {
             <Paragraph>Sunday 19th November 2023, 12pm—4pm</Paragraph>
             <Paragraph>116 Wungan Street, Macleod</Paragraph>
             <Paragraph>There will be food and some drinks provided. No presents (unless pre-loved), your presence is plenty. </Paragraph>
+            <Paragraph>Please RSVP by November 4th</Paragraph>
           </div>
 
-          <RSVP>Please RSVP by November 4th</RSVP>
+          <RSVP>Click here to RSVP</RSVP>
         </div>
       </main>
       <iframe 
