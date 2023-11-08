@@ -43,7 +43,7 @@ export default function Home() {
             <Paragraph>Sunday 19th November 2023, 12pm—4pm</Paragraph>
             <Paragraph>116 Wungan Street, Macleod</Paragraph>
             <Paragraph>There will be food and some drinks provided. No presents (unless pre-loved), your presence is plenty. </Paragraph>
-            <Paragraph>You can park on-street (even with the bike lane), in the nearby side-streets (we recommend Glenmore street) or the YMCA Macleod Recreation & Fitness Centre car-park (4 hour).</Paragraph>
+            <Paragraph>You can park on-street (even with the bike lane), in the nearby side-streets (we recommend Glenmore street) or the YMCA Macleod Recreation & Fitness Centre car-park.</Paragraph>
           </div>
 
           <RSVP>Click here to RSVP</RSVP>
